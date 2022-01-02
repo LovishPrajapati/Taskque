@@ -1,0 +1,113 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  root: {
+    marginTop: 106,
+    paddingHorizontal: 18,
+  },
+  headTextContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  headText: {
+    fontSize: 36,
+    color: '#041A55',
+  },
+  loginText: {
+    color: '#8293BF',
+    marginTop: 73,
+    marginLeft: 28,
+    fontSize: 20,
+  },
+  username: {
+    marginBottom: 10,
+    borderRadius: 6,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 4,
+      height: 0,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 3.84,
+    elevation: 5,
+    width: 305,
+    height: 53,
+  },
+  password: {
+    borderRadius: 6,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 4,
+      height: 0,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 3.84,
+    elevation: 5,
+    width: 305,
+    height: 53,
+  },
+  inputContainer: {
+    marginTop: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  submitButton: {
+    backgroundColor: '#041A55',
+    borderRadius: 4,
+    width: 305,
+    height: 53,
+    marginTop: 35,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  orSignContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 50,
+  },
+  gmailLogin: {
+    shadowColor: '#000',
+    borderRadius: 4,
+    shadowOffset: {
+      width: 1,
+      height: 0,
+    },
+    shadowOpacity: 0.01,
+    shadowRadius: 0.84,
+    elevation: 5,
+    width: 101,
+    height: 61,
+    marginRight: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  fblogin: {
+    shadowColor: '#000',
+    borderRadius: 4,
+    shadowOffset: {
+      width: 4,
+      height: 0,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 0.84,
+    elevation: 5,
+    width: 101,
+    height: 61,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  socialLoginContainer: {
+    flexDirection: 'row',
+    width: 305,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 30,
+    marginLeft: 28,
+  },
+  noAccContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginTop: 100,
+  },
+});
